@@ -10,22 +10,7 @@ OpenCore Bootloader EFI
 - **EFI** 
   -    config.plist (for Sandy Bridge processor and newer)
   -    config_amd.plist (for all CPUs AMD Ryzen, Threadripper, Athlon 2xxGE)
-  -    /config_laptop/   /config_HD510.plist
-                         /config_HD515_520_530_540.plist
-                         /config_HD550_P530.plist
-                         /config_HD615_620_630_640_650.plist
-                         /config_HD3000_1600x900.plist
-                         /config_HD3000.plist
-                         /config_HD4000_1600x900.plist
-                         /config_HD4000.plist
-                         /config_HD4600_4400_4200.plist
-                         /config_HD5000_5100_5200.plist
-                         /config_HD5300_5500_6000.plist
-                         /config_HD5600.plists
-                         /config_IcelakeG4/G7.plist
-                         /config_UHD617(ABL)_620(KBL).plist
-                         /config_UHD620.plist
-                         /config_UHD630.plist    
+  -    /config_laptop/   
 
 ## ACPI
 
@@ -33,6 +18,7 @@ OpenCore Bootloader EFI
 |:-----|:------------|
 SSDT-AWAC.aml | Patch STAS for 300 mainboard series or newer
 SSDT-CPUR.aml | Fix CPU definitions with only B550 motherboards (Don't both SSDT-PLUG.aml enable)
+SSDT-Disable_DGPU.aml | Disable dGPU on laptop
 SSDT-EC-AMD.aml | Add device EC for AMD systems to fix USB ports
 SSDT-EC-USBX.aml | Add device EC and USBX to fix USB ports
 SSDT-IMEI.aml | Add device IMEI for CPU Ivy Bridge or older
