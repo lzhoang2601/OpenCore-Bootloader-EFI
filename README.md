@@ -33,9 +33,9 @@ SSDT-XOSI.aml | Trick our hardware into thinking it's booting Windows to fix tou
 
 | Name | Version | Build date |
 |:-----|:-------------|:-----|
-[OpenCore Bootloader](https://github.com/acidanthera/OpenCorePkg) | 0.6.3 | 16/10/2020
-[AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) |  2.1.1 | 19/10/2020
-[AppleALC](https://github.com/acidanthera/AppleALC) | 1.5.4 | 06/10/2020
+[OpenCore Bootloader](https://github.com/acidanthera/OpenCorePkg) | 0.6.4 | 03/11/2020
+[AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) |  2.1.2 | 02/11/2020
+[AppleALC](https://github.com/acidanthera/AppleALC) | 1.5.5 | 02/11/2020
 [AppleMCEReporterDisabler](https://github.com/acidanthera/AppleALC) | 1.2.0 | 10/10/2019
 [AtherosE2200Ethernet](https://github.com/Mieze/AtherosE2200Ethernet) | 2.2.2 | 18/11/2018
 [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) | 1.1.2 | 03/08/2020
@@ -50,7 +50,7 @@ SSDT-XOSI.aml | Trick our hardware into thinking it's booting Windows to fix tou
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC) | 1.1.8 | 11/10/2020
 [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C) | 2.5.1 | 06/10/2020
 [VoodooPS2Controller](https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller) | 1.9.2 | 08/10/2018
-[WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.4.4 | 08/10/2020
+[WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.4.5 | 03/11/2020
 
 ## How to use?
 
